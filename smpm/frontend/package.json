@@ -1,0 +1,30 @@
+{
+  "name": "smpm-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "devDependencies": {
+    "@fullcalendar/core": "^6.1.19",
+    "@fullcalendar/daygrid": "^6.1.19",
+    "@fullcalendar/vue3": "^6.1.19",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "autoprefixer": "^10.4.22",
+    "axios": "^1.13.2",
+    "pinia": "^3.0.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vite": "^7.2.4",
+    "vitest": "^1.3.0",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "npm": "^11.6.4",
+    "run": "^1.5.0"
+  }
+}
