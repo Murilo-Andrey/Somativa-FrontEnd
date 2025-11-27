@@ -94,5 +94,5 @@ Se alguém quiser se aprofundar nas tecnologias que inspiraram esse código, aqu
 - Documentação do **Axios**
 - Documentação do **FullCalendar**
 - Documentação do **Node.js**, **Express** e **SQLite**
-- Guia oficial do **Scrum** (metodologia usada na proposta do projeto) :contentReference[oaicite:1]{index=1}
+- Guia oficial do **Scrum** (metodologia usada na proposta do projeto)
 
