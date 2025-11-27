@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const http = axios.create({
-  baseURL: 'http://localhost:4000/api'
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:4000/api'
 })
 
 // pega token do localStorage, se tiver
@@ -31,7 +31,6 @@ export default {
 
   // MAINTENANCES
   listMaintenances(params = {}) {
-    // aceita params (status, q, etc)
     return http.get('/maintenances', { params })
   },
 
